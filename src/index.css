@@ -1,0 +1,33 @@
+:root {
+  font-family: "Comic Sans MS", sans-serif;
+  color: #ff0099;
+  background: #ffe6ff;
+}
+
+body {
+  background-image: url("/image/cutebackground.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ff00aa;
+  text-shadow: 2px 2px 5px #ff66cc;
+}
+
+button {
+  padding: 10px 20px;
+  border: 2px solid #ff33aa;
+  background: #ff66cc;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff0099;
+}
